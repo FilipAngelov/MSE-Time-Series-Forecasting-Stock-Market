@@ -3,6 +3,7 @@
 * [Technologies & Setup](#technologies-&-setup)
 * [Dataset](#dataset)
 * [In-details](#in-details)
+* [Future Work](#future-work)
 
 
 ## Project Intro
@@ -28,6 +29,30 @@ Dataset was split into train and validation period based on a cutoff date. Vario
 
 A separate Test dataset file containing timeseries data for the same 22 stock starting from 2020-Aug-26 running for 30 days until 2020-Sep-25 was used to test models. 
 
-We evaluated the models based metrics RMSE as % of true market price, and classification error rate for a 7-days-ahead-of-time predictions over the 30 day testing period. 
+We evaluated the models based on RMSE as % of true market price, and classification error rate metrics for a 7-days-ahead-of-time predictions over the 30 day testing period. 
 
 ## In-details
+├──  config
+│    └── defaults.py  - here's the default config file.
+│
+│
+├──  configs  
+│    └── train_mnist_softmax.yml  - here's the specific config file for specific model or dataset.
+│ 
+│
+├──  data  
+│    └── datasets  - here's the datasets folder that is responsible for all data handling.
+│    └── transforms  - here's the data preprocess folder that is responsible for all data augmentation.
+│    └── build.py  		   - here's the file to make dataloader.
+│    └── collate_batch.py   - here's the file that is responsible for merges a list of samples to form a mini-batch.
+│
+│
+├──  engine
+│   ├── trainer.py     - this file contains the train loops.
+│   └── inference.py   - this file contains the inference process.
+│
+│ unit test of your project.
+     ├── test_data_sampler.py
+
+
+## Future Work
