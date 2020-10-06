@@ -12,12 +12,7 @@ The dataset that we have is for 22 stocks trading actively on MSE since 1987 unt
 
 ## Technologies & Setup
 **Technologies**
-* Python
-* Pandas
-* Numpy
-* XGBoost
-* Keras
-* Jupyter
+Python, Pandas, Numpy, XGBoost, Keras, Jupyter
 
 **Setup**
 * Please refer to the requirements.txt file in the main repository.  
