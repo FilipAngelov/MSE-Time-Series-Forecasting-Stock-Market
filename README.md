@@ -32,7 +32,7 @@ A separate Test dataset file containing timeseries data for the same 22 stock st
 We evaluated the models based on RMSE as % of true market price, and classification error rate metrics for a 7-days-ahead-of-time predictions over the 30 day testing period. 
 
 ## In-details
-'''
+```
 ├──  config
 │    └── defaults.py  - here's the default config file.
 │
@@ -46,14 +46,13 @@ We evaluated the models based on RMSE as % of true market price, and classificat
 │    └── transforms  - here's the data preprocess folder that is responsible for all data augmentation.
 │    └── build.py  		   - here's the file to make dataloader.
 │    └── collate_batch.py   - here's the file that is responsible for merges a list of samples to form a mini-batch.
-│
-│
-├──  engine
-│   ├── trainer.py     - this file contains the train loops.
-│   └── inference.py   - this file contains the inference process.
-│
-│ unit test of your project.
+││
+└── tests					- this foler contains unit test of your project.
      ├── test_data_sampler.py
-'''
+```
 
 ## Future Work
+* Make Time Series Forecasting with Convolutional Neural Network Regressor
+* Make Time Series Rare Events Regressor
+* Automated Hyper-parametar tunning
+* Make Ensamble of the best regressors
