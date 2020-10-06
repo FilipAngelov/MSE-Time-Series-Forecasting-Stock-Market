@@ -7,11 +7,11 @@
 
 
 ## Project Intro
-The purpose of the project is to develop timeseries forecasting regression models and classications models for stocks trading on the Macedonian Stock Exchange (MSE).
+The purpose of the project is to develop timeseries forecasting regression models and classifications models for stocks trading on the Macedonian Stock Exchange (MSE).
 
 We use statistical models, traditional machine learning, and deep learning models to predict the stock price 1/7/30 (adjustable) days ahead of time. 
 
-The dataset that we have is containing stock exchange information like open/close price, volume, etc. for each of 22 stocks that had daily trading activety on the exchange for periods between 1997-Jan-09 and 2020-Aug-25.
+The dataset that we have is containing stock exchange information like open/close price, volume, etc. for each of 22 stocks that had daily trading activity on the exchange for periods between 1997-Jan-09 and 2020-Aug-25.
 
 
 ## Technologies & Setup
@@ -54,5 +54,5 @@ We evaluated the models based on RMSE as % of true market price, and classificat
 ## Future Work
 * Make Time Series Forecasting with Convolutional Neural Network Regressor
 * Make Time Series Rare Events Regressor
-* Automated Hyper-parametar tunning
-* Make Ensamble of the best regressors
+* Automated Hyper-parameter tunning
+* Make Ensemble of the best regressors
