@@ -11,7 +11,7 @@ We use statistical, tradition machine learning, and deep learning models in orde
 The dataset that we have is for 22 stocks trading actively on MSE since 1987 until Aug/25/2020. More on the dataset below. This is for below: Test period is .... 
 
 ## Technologies & Setup
-**Technologies**
+**Technologies:**
 Python, Pandas, Numpy, XGBoost, Keras, Jupyter
 
 **Setup**
