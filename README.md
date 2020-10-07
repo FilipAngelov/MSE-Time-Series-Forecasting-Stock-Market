@@ -54,5 +54,6 @@ We evaluated the models based on RMSE as % of true market price, and classificat
 ## Future Work
 * Make Time Series Forecasting with Convolutional Neural Network Regressor
 * Make Time Series Rare Events Regressor
+* Facebook Prophet
 * Automated Hyper-parameter tunning
 * Make Ensemble of the best regressors
