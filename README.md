@@ -58,3 +58,4 @@ Train and test datasets can be found in Data folder.
 * Facebook Prophet
 * Automated Hyper-parameter tunning
 * Make Ensemble of the best regressors
+* Automate trading rule algorithm 
