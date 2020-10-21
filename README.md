@@ -36,19 +36,15 @@ Train and test datasets can be found in Data folder.
 ## In-details
 ```
 ├──  config
-│    └── defaults.py  - here's the default config file.
+│    └── requirements.txt  - here's the default config file.
 │
-│
-├──  configs  
-│    └── train_mnist_softmax.yml  - here's the specific config file for specific model or dataset.
-│ 
 │
 ├──  data  
-│    └── datasets  - here's the datasets folder that is responsible for all data handling.
-│    └── transforms  - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── build.py  		   - here's the file to make dataloader.
-│    └── collate_batch.py   - here's the file that is responsible for merges a list of samples to form a mini-batch.
-││
+│    └── train  - here's the datasets folder that is responsible for all data handling.
+│    └── test  - here's the data preprocess folder that is responsible for all data augmentation.
+│
+│
+│
 └── tests					- this foler contains unit test of your project.
      ├── test_data_sampler.py
 ```
