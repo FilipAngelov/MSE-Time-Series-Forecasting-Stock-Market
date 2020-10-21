@@ -39,10 +39,12 @@ Train and test datasets can be found in Data folder.
 │    └── requirements.txt  - here's the default config file.
 │
 │
-├──  data  
-│    └── train  - here's the datasets folder that is responsible for all data handling.
-│    └── test  - here's the data preprocess folder that is responsible for all data augmentation.
+├──  data - folder containing csv datasets 
+│    └── data_mse_mse_historic_data_active.csv - is train dataset.
+│    └── data_mse_mse_historic_data_active_test.csv  - is test dataset.
 │
+│
+│── 
 │
 │
 └── tests					- this foler contains unit test of your project.
