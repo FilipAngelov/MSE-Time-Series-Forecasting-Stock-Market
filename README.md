@@ -25,11 +25,11 @@ Please refer to the requirements.txt file in the main repository.
 ## Dataset
 The data set contains a timeseries data that is nonconsecutive, of unequal time length, and has different number of instances based on trading activity for the 22 stocks.
 
-Dataset was split into train and validation period based on a cutoff date. Various validation periods were tried like leaving the last 30, 100, and 300 days for validation and using the rest for test.
+Dataset was split into train and validation period based on a cutoff date. Various validation periods were tried like leaving the last 30, 100, and 300 days for validation and using the rest for train.
 
 A separate Test dataset file containing timeseries data for the same 22 stock starting from 2020-Aug-26 running for 30 days until 2020-Sep-25 was used to test models. 
 
-We evaluated the models based on RMSE as % of true market price, and classification error rate metrics for a 7-days-ahead-of-time predictions over the 30 day testing period. 
+We evaluated the models based on 'RMSE as % of true market price', and classification error rate metrics for a 7-days-ahead-of-time predictions over the 30 day testing period. 
 
 ## In-details
 ```
