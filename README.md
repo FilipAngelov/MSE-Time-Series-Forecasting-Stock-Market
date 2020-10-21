@@ -31,6 +31,8 @@ A separate Test dataset file containing timeseries data for the same 22 stock st
 
 We evaluated the models based on 'RMSE as % of true market price', and classification error rate metrics for a 7-days-ahead-of-time predictions over the 30 day testing period. 
 
+Train and test datasets can be found in Data folder.
+
 ## In-details
 ```
 ├──  config
