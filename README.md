@@ -44,11 +44,12 @@ Train and test datasets can be found in Data folder.
 │    └── data_mse_mse_historic_data_active_test.csv  - is test dataset.
 │
 │
-│── 
+│── notebook with compiled code
+│   └── MSE_Time_Series_Regression_and_Classification_Models.ipynb
 │
 │
-└── tests					- this foler contains unit test of your project.
-     ├── test_data_sampler.py
+└── test results - foler containing test result of models.
+
 ```
 
 ## Future Work
