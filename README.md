@@ -24,9 +24,10 @@ The deep learning and traditional machine regression learning models are multiva
 * LSTM layers were used to constract a plain vanila deep neural network to solve a regression problem.
 
 #### Evaluation
-Regression models were evaluated based on 'RMSE' and 'RMSE as % of true market price'. Classification error rate metrics was used for the classification model. We forecasted the price/class 7-days-ahead-of-time over a 30 day testing period. 
+We forecasted the price/class 7-days-ahead-of-time over a 30 day testing period. 
+Regression models were evaluated based on 'RMSE' and 'RMSE as % of true market price'. Classification error rate metrics was used for the classification model evaluation. 
 
-The regression models were also evaluated based on return on investment for a trading system that worked as follows:
+The regression models were also evaluated based on return on investment (ROI) for a trading system that worked as follows:
 * Over the 30 days test period we developed 4 predictions - for example: each Monday we predict the price of the next Monday.
 * We take market position in each of the stock based on rules: Buy - if predicted price is 2% higher than the current price; Sell - if predicted price is 2% below the current price; and Hold - if predicted price between -2% and 2%.
 * We hold the position for 7 days until next Monday and next prediction.
