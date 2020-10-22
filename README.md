@@ -20,8 +20,8 @@ For regression we use statistical, traditional machine learning, and deep neural
 
 The deep learning and traditional machine regression learning models are multivariate regression sequence to point prediction models. A standard ARIMA model is a univariate regression to point of time forecasting model. 
 * Statistical ARIMA model was used to set a baseline RMSE score (in MKD currency units) for each of the stocks of interest. 
-* XGBoost was used for regression and classification models.
-* Plain vanila LSTM was used for regression model.
+* XGBoost was used for traditional machine learning regression and classification models.
+* LSTM layers were used to constract a plain vanila deep neural network to solve a regression problem.
 
 #### Evaluation
 We evaluated the models based on 'RMSE' and 'RMSE as % of true market price', and classification error rate metrics for a 7-days-ahead-of-time price/class predictions over the 30 day testing period. 
