@@ -8,14 +8,14 @@
 
 ## Project Intro
 
-### Purpose
+#### Purpose
 The purpose of the project is to develop a time series forecasting regression models and classifications model for stocks trading on the Macedonian Stock Exchange (MSE).
 
-### Dataset
+#### Dataset
 The dataset that we have is containing stock exchange data like open/close price, volume, etc. for each of 22 stocks that had daily trading activity on the exchange for periods between 1997-Jan-09 and 2020-Aug-25. 
 We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
 
-### Models
+#### Models
 For regression we use statistical, traditional machine learning, and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
 
 The deep learning and traditional machine regression learning models are multivariate regression sequence to point prediction models. A standard ARIMA model is a univariate regression to point of time forecasting model. 
@@ -23,7 +23,7 @@ The deep learning and traditional machine regression learning models are multiva
 * XGBoost was used for regression and classification models.
 * Plain vanila LSTM was used for regression model.
 
-### Evaluation
+#### Evaluation
 We evaluated the models based on 'RMSE' and 'RMSE as % of true market price', and classification error rate metrics for a 7-days-ahead-of-time price/class predictions over the 30 day testing period. 
 For the regression models we evaluated also the models based on return on investment based on trading system that worked as follows:
 * Over the 30 days test period we developed 4 predictions - for example: each Monday we predict the price of the next Monday.
