@@ -11,10 +11,6 @@
 #### Purpose
 The purpose of the project is to develop a time series forecasting regression models and classifications model for stocks trading on the Macedonian Stock Exchange (MSE).
 
-#### Dataset
-The dataset that we have is containing stock exchange data like open/close price, volume, etc. for each of 22 stocks that had daily trading activity on the exchange for periods between 1997-Jan-09 and 2020-Aug-25. 
-We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
-
 #### Models
 For regression we use statistical, traditional machine learning, and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
 
@@ -43,9 +39,11 @@ Please refer to the requirements.txt file in the main repository.
 
 
 ## Dataset
+The dataset that we have is containing stock exchange data like open/close price, volume, etc. for each of 22 stocks that had daily trading activity on the exchange for periods between 1997-Jan-09 and 2020-Aug-25. 
 The data set contains a time series data that is nonconsecutive, of unequal time length, and has different number of instances based on trading activity for the 22 stocks.
 
-Converting the time series data to a supervised learning structure to be used in regression and classification includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
+We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
+Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
 
 Dataset was split into train and validation period based on a cutoff date. Various validation periods were tried like leaving the most recent 30, 100, and 300 days for validation and using the rest for train.
 
