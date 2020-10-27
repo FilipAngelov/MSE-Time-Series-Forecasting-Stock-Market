@@ -71,6 +71,7 @@ Train and test datasets can be found in Data folder.
 ```
 
 ## Future Work
+* ARIMA model
 * Make Time Series Forecasting with Convolutional Neural Network Regressor
 * Make Time Series Rare Events Regressor
 * Facebook Prophet
