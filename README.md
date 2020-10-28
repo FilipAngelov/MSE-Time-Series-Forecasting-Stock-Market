@@ -21,7 +21,7 @@ The deep learning and traditional machine regression learning models are multiva
 
 #### Evaluation
 We forecasted the price/class 7-days-ahead-of-time over a 30 day testing period. 
-Regression models were evaluated based on 'RMSE' and 'RMSE as % of true market price'. Classification error rate metrics was used for the classification model evaluation. 
+Regression models were evaluated based on 'RMSE' and 'RMSE as % of true market price'. The classification error rate metric was used for the classification model evaluation. 
 
 The regression models were also evaluated based on return on investment (ROI) for a trading system that worked as follows:
 * Over the 30 days test period we developed 4 predictions - for example: each Monday we predict the price of the next Monday.
