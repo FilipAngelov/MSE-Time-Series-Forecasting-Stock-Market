@@ -16,6 +16,8 @@ The dataset that we have is containing stock exchange data like open/close price
 ![image](Data/dataset.png)
 
 The data set contains a time series data that is nonconsecutive, of unequal time length, and has different number of instances based on trading activity for the 22 stocks.
+![image](Data/price_per_stock.png)
+
 
 We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
 Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
