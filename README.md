@@ -15,7 +15,6 @@ The dataset that we have is containing stock exchange data like open/close price
 
 ![image](https://github.com/FilipAngelov/MSE-Time-Series-Forecasting-Stock-Market/blob/master/data/dataset.png)
 
-
 The data set contains a time series data that is nonconsecutive, of unequal time length, and has different number of instances based on trading activity for the 22 stocks.
 
 We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
