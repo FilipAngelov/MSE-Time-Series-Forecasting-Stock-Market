@@ -24,10 +24,9 @@ A separate Test dataset file containing timeseries data for the same 22 stock st
 Train and test datasets can be found in Data folder.
 
 #### Models
-For regression we use statistical, traditional machine learning, and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
+For regression we use traditional machine learning and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
 
-The deep learning and traditional machine regression learning models are multivariate regression sequence to point prediction models. A standard ARIMA model is a univariate regression to point of time forecasting model. 
-* Statistical ARIMA model was used to set a baseline RMSE score (in MKD currency units) for each of the stocks of interest. 
+The deep learning and traditional machine regression learning models are multivariate regression sequence to point prediction models. 
 * XGBoost was used for traditional machine learning regression and classification models.
 * LSTM layers were used to constract a plain vanila deep neural network to solve a regression problem.
 
