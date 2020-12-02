@@ -35,11 +35,12 @@ Train and test datasets can be found in Data folder.
 #### Feature Engeneering
 * Domain knowledge features like volatility and block transaction
 * TsFresh used to generate numerous features from which we selected 10 best through KBest features selection
-![image](Data/tsfresh.png)
 
 #### Pre-processing for Time Series 
 Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
 For classical regression models (XGBoost) we are preparing lags of as features. For LSTM we are preparing 3 dimensional vectors. Both of these are numerically endcoded with min/max scaler.
+
+![image](Data/tsfresh1.png)
 
 #### Models
 For regression we use traditional machine learning and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
