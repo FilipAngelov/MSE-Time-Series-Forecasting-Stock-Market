@@ -25,7 +25,6 @@ The data set contains a time series data that is nonconsecutive, of unequal time
 
 
 We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
-Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
 
 Dataset was split into train and validation period based on a cutoff date. Various validation periods were tried like leaving the most recent 30, 100, and 300 days for validation and using the rest for train.
 
@@ -39,6 +38,8 @@ Train and test datasets can be found in Data folder.
 ![image](Data/tsfresh.png)
 
 #### Pre-processing for Time Series 
+Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
+For classical regression models (XGBoost) we are preparing lags of as features. For LSTM we are preparing 3 dimensional vectors. Both of these are numerically endcoded with min/max scaler.
 
 #### Models
 For regression we use traditional machine learning and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
