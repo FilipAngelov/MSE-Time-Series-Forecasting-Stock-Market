@@ -1,5 +1,9 @@
 # MSE-Stock-Market-Prediction
 * [Project Intro](#project-intro)
+* [Dataset](#dataset)
+* [Models](#models)
+* [Evalution](#evaluation)
+* [Pre-processing for Time Series](#Pre-processing-for-Time-Series)
 * [Technologies & Setup](#technologies-&-setup)
 * [In-details](#in-details)
 * [Future Work](#future-work)
@@ -28,6 +32,13 @@ Dataset was split into train and validation period based on a cutoff date. Vario
 A separate Test dataset file containing timeseries data for the same 22 stock starting from 2020-Aug-26 running for 30 days until 2020-Sep-25 was used to test models. 
 
 Train and test datasets can be found in Data folder.
+
+#### Feature Engeneering
+* Domain knowledge features like volatility and block transaction
+* TsFresh used to generate numerous features from which we selected 10 best through KBest features selection
+![image](Data/tsfresh.png)
+
+#### Pre-processing for Time Series 
 
 #### Models
 For regression we use traditional machine learning and deep neural networks and learning models to predict the stock price 1, 7, or 30 days ahead of time. For classification we use traditional machine learning models to classify stock buying signals as buy/hold/sell based on multiple features.
