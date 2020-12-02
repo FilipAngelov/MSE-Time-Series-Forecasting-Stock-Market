@@ -12,6 +12,10 @@ The purpose of the project is to develop a time series forecasting regression mo
 
 #### Dataset
 The dataset that we have is containing stock exchange data like open/close price, volume, etc. for each of 22 stocks that had daily trading activity on the exchange for periods between 1997-Jan-09 and 2020-Aug-25. 
+
+|1 | Dataset  | ![image](https://github.com/FilipAngelov/Mask_and_Age_Classification/blob/master/other/train_old_with_mask.png) | ![image]
+
+
 The data set contains a time series data that is nonconsecutive, of unequal time length, and has different number of instances based on trading activity for the 22 stocks.
 
 We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
