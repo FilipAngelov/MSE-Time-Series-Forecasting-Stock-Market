@@ -1,4 +1,4 @@
-# MSE-Stock-Market-Prediction
+# Time_Series-Forecasting-Stock-Market-Prediction_MSE
 * [Project Intro](#project-intro)
 * [Dataset](#dataset)
 * [Models](#models)
