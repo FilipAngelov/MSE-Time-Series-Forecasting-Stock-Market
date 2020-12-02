@@ -24,8 +24,6 @@ The data set contains a time series data that is nonconsecutive, of unequal time
 ![image](Data/trading_days.png)
 
 
-We are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
-
 Dataset was split into train and validation period based on a cutoff date. Various validation periods were tried like leaving the most recent 30, 100, and 300 days for validation and using the rest for train.
 
 A separate Test dataset file containing timeseries data for the same 22 stock starting from 2020-Aug-26 running for 30 days until 2020-Sep-25 was used to test models. 
@@ -37,8 +35,12 @@ Train and test datasets can be found in Data folder.
 * TsFresh used to generate numerous features from which we selected 10 best through KBest features selection
 
 #### Pre-processing for Time Series 
-Converting the time series data to a supervised learning structure includes preparing a 40 days look-back sequence of each of the features to predict the price 7 days in the future. 
-For classical regression models (XGBoost) we are preparing lags of as features. For LSTM we are preparing 3 dimensional vectors. Both of these are numerically endcoded with min/max scaler.
+
+Converting the time series data to a supervised learning structure includes preparing a 40 (hyper-parametar) days look-back sequence of each of the features to predict the price 7 days in the future. 
+
+For classical regression models (XGBoost) we are preparing lags of as features i.e we are converting the time series data to a supervised learning structure to solve the problem as a regression or classification. 
+
+For LSTM we are preparing 3 dimensional vectors. Both of these are numerically endcoded with min/max scaler.
 
 ![image](Data/tsfresh1.png)
 
